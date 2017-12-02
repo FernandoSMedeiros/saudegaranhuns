@@ -14,7 +14,15 @@ public class CenarioPaciente {
                new Endereco("50", "Logo Ali", new Bairro("Indiano")), 
                new PostoSaude("Indiano", new Endereco("S/N", "Indiano", new Bairro("Indiano")
                ))
-        );        
+        );   
+    }
+        
+    public Paciente maria(){    
+        return new Paciente("Maria", "87654321", LocalDate.of(1900, Month.MARCH, 25), 
+               new Endereco("50", "Quase Lá", new Bairro("Boa Vista")), 
+               new PostoSaude("Boa Vista", new Endereco("S/N", "Lá na boa vista", new Bairro("Boa Vista")
+               ))
+        );   
     }
     
 }
